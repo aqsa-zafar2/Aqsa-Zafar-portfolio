@@ -34,17 +34,12 @@ const projects = [
       "An interactive digital wedding invitation designed with a refined visual experience.",
     link: "https://weddinginvitesbyaz.vercel.app/",
   },
-  {
-    number: "05",
-    title: "Birthday Party Invitation",
-    category: "Creative Web Project",
-    description:
-      "An interactive birthday invitation website with an elegant digital invitation experience.",
-    link: "https://birthday-party-invite-inky.vercel.app/",
-  },
+ 
 ];
 
 const skills = [
+  "Website Design and Development",
+"Basic Graphic Design Skills",
   "Microsoft Word and Excel",
   "Microsoft PowerPoint",
   "Basic computer operations",
@@ -54,6 +49,7 @@ const skills = [
   "Problem-solving skills",
   "Leadership abilities",
   "Strategic planning expertise",
+
 ];
 
 const education = [
@@ -762,23 +758,7 @@ export default function Home() {
         </div>
 
 
-        <div className="extra-card">
-
-          <p className="section-label">
-            HOBBIES & INTERESTS
-          </p>
-
-          <div className="pill-list">
-
-            {hobbies.map((hobby) => (
-              <span key={hobby}>
-                {hobby}
-              </span>
-            ))}
-
-          </div>
-
-        </div>
+       
 
       </section>
 
